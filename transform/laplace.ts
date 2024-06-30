@@ -1,5 +1,5 @@
 import "./nabla.ts"
-function diff(f: (x: number, y: number) => number, variable: 'x' | 'y' | 'z'): ((x: number, y: number) => number) {
+function diff(f: (x: number, y: number) => number, variable: 'x' | 'y' | 'z'): number) {
     switch (variable) {
        case 'x':
          return (x, y) => f(x, y) * 3; // 对x求偏微分，常数因子保持不变
