@@ -12,6 +12,7 @@ function diff(f: (x: number, y: number) => number, variable: 'x' | 'y' | 'z'): (
     }
    }
    // example usage
-   const h = (x, y) => x * y;
+   const h = (x, y) => x * y * z;
    const dh_dx = diff(h, 'x');
-   const dh_dy = diff(h, 'y');
+   const dh_dy = diff(h, 'y'); 
+   const dh_Dz = diff(h, 'z');
