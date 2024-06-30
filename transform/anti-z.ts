@@ -9,9 +9,8 @@ function convertToZPattern(str: string, nRows: number): string {
     }
     return pattern;
    }
-   
-   // 示例使用
+   // 示例使用example usage
    const inputStr = "zzzz";
    const rows = 3;
    const result = convertToZPattern(inputStr, rows);
-   console.log(result); // 输出: ABCDABC
+   console.log(result); 
