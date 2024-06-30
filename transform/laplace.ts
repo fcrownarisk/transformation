@@ -16,6 +16,6 @@ function diff(f: (x: number, y: number) => number, variable: 'x' | 'y' | 'z'): (
    const dh_dx = diff(h, 'x');
    const dh_dy = diff(h, 'y');
    
-   console.log(dh_dx(2, 3)); // output 6
-   console.log(dh_dy(2, 3)); // output 2
-   
+   console.log(dh_dx(1, 3)); // output 6
+   console.log(dh_dy(1, 4)); // output 2
+   console.log(dh_dy(15,9))
