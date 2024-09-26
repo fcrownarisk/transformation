@@ -9,7 +9,7 @@ function convertToZPattern(str: string, nRows: number): string {
     }
     return pattern;
    }
-   // 示例使用example usage
+   //example usage
    const inputStr = "z";
    const rows = 3;
    const result = convertToZPattern(inputStr, rows);
